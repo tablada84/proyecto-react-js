@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../Title/Title";
-import ItemCount from "../ItemCount";
+import ItemCount from "../ItemCount/ItemCount";
 
 export const ItemListContainer = ({ texto }) => {
   const onAdd = (quantity) => {
