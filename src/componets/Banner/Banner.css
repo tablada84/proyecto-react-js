@@ -4,20 +4,20 @@
   height: 100vh;
 }
 
-.banner-cantainer {
+.banner-container {
   text-align: center;
   padding: 15% 0;
 }
 .banner h1 {
   margin-top: 0;
-  color: white;
+  color: rgb(134, 108, 108);
   text-shadow: 1px 1px 3px black;
   font-size: 62px;
   font-weight: bold;
 }
 .banner p {
   font-size: 30px;
-  color: white;
+  color: rgb(141, 124, 124);
   opacity: 0.7;
   text-shadow: 1px 1px 3px black;
 }
