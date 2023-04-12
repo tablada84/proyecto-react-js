@@ -2,6 +2,9 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjkGJ_3MZoupycbR6SucWe_OwRrxzPhmUZOA&usqp=CAU);
 }
 
 .banner-container {
@@ -10,14 +13,14 @@
 }
 .banner h1 {
   margin-top: 0;
-  color: rgb(134, 108, 108);
+  color: rgb(201, 168, 168);
   text-shadow: 1px 1px 3px black;
   font-size: 62px;
   font-weight: bold;
 }
 .banner p {
   font-size: 30px;
-  color: rgb(141, 124, 124);
+  color: rgb(214, 195, 195);
   opacity: 0.7;
   text-shadow: 1px 1px 3px black;
 }
