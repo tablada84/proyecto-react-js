@@ -11,7 +11,7 @@ function App() {
       <NavBar />
       <Banner />
       <Title />
-      <ItemCount />
+      <ItemCount Initial />
       <ItemListContainer />
     </>
   );
