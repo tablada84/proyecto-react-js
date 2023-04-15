@@ -9,7 +9,7 @@ export const ItemListContainer = ({ texto }) => {
 
   return (
     <>
-      <Title greeting={texto} />
+      <Title greeting="bienvenido" />
       <ItemCount Initial={1} stock={10} onAdd={onAdd} />
     </>
   );

@@ -5,32 +5,25 @@ body {
   margin: 0;
 }
 
-.nav-container {
-  position: sticky;
-  z-index: 3;
-  top: 0;
-}
-
 .navbar {
+  background-color: black;
+  color: white;
   display: flex;
   justify-content: space-between;
-  height: 15vh;
-  background-color: rgb(104, 76, 76);
-  color: white;
+  align-items: center;
   gap: 2rem;
   padding: 0 1rem;
 }
-.navbar-logo {
-  justify-self: start;
-  margin-left: 20px;
-  color: white;
-  margin-top: 4vh;
-  cursor: pointer;
+.Caruso-wine {
+  font-size: 2rem;
 }
+
 .nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  display: flex;
+  gap: 0 1rem;
 }
 .navbar a {
   color: inherit;
@@ -41,13 +34,10 @@ body {
   padding: 0.25rem;
 }
 
+.nav li .active {
+  background-color: aliceblue;
+}
+
 .nav li:hover {
   background-color: white;
-}
-.seeCarrito {
-  font-size: 25px;
-  margin-right: 20px;
-  margin-top: 4vh;
-  cursor: pointer;
-  text-decoration: none;
 }
