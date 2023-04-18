@@ -1,8 +1,8 @@
 import React from "react";
-
 import "./NavBar.css";
 import CartWidget from "./CartWidget/Index";
-const NavBar = () => {
+
+export default function NavBar() {
   return (
     <nav className="navbar">
       <a href="/" className="Caruso-wine">
@@ -15,7 +15,9 @@ const NavBar = () => {
         <li>
           <a href="/nosotros">Nosotros</a>
         </li>
-        <a href="/contancto">Contactos</a>
+        <li>
+          <a href="/contancto">Contactos</a>
+        </li>
         <li>
           <a href="carrito">
             <CartWidget />
@@ -24,6 +26,4 @@ const NavBar = () => {
       </ul>
     </nav>
   );
-};
-
-export default NavBar;
+}

@@ -14,16 +14,16 @@ body {
   gap: 2rem;
   padding: 0 1rem;
 }
-.Caruso-wine {
-  font-size: 2rem;
+.caruso-wine {
+  font-size: 4rem;
 }
 
-.nav ul {
+.ul {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 0 1rem;
+  gap: 1rem;
 }
 .navbar a {
   color: inherit;
@@ -34,10 +34,10 @@ body {
   padding: 0.25rem;
 }
 
-.nav li .active {
-  background-color: aliceblue;
+.nav li:hover {
+  background-color: aquamarine;
 }
 
-.nav li:hover {
-  background-color: white;
+.nav li .active {
+  background-color: aqua;
 }
