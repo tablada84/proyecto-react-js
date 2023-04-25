@@ -3,6 +3,7 @@ import NavBar from "./componets/NavBar";
 import Banner from "./componets/Banner/Banner";
 import Title from "./componets/Title/Title";
 import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
+import PlaceHolder from "./componets/Placeholder/PlaceHolder";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Title />
       <ItemListContainer />
+      <PlaceHolder />
     </>
   );
 }

@@ -5,25 +5,23 @@ import CartWidget from "./CartWidget/Index";
 export default function NavBar() {
   return (
     <nav className="navbar">
-      <a href="/" className="Caruso-wine">
-        Caruso-wine
+      <a href="/" className="Caruso-Wine">
+        Caruso-Wine
       </a>
-      <ul>
-        <li className="active">
+      <ul id="row">
+        <li>
           <a href="/inicio">Inicio</a>
         </li>
         <li>
-          <a href="/nosotros">Nosotros</a>
+          <a href="/productos">Productos</a>
         </li>
         <li>
           <a href="/contancto">Contactos</a>
         </li>
-        <li>
-          <a href="carrito">
-            <CartWidget />
-          </a>
-        </li>
       </ul>
+      <a href="carrito">
+        <CartWidget />
+      </a>
     </nav>
   );
 }
