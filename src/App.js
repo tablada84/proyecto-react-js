@@ -3,25 +3,21 @@ import NavBar from "./componets/NavBar";
 import Banner from "./componets/Banner/Banner";
 import Title from "./componets/Title/Title";
 import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
-
-import DataContext from "./componets/Context/DataContext";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import DataProvaider from "./componets/Context/DataContext";
-import Products from "./componets/Products/Products";
+import ApiPlaceholder from "./componets/ApiPlaceholder/ApiPlaceholder";
+import User from "./componets/User/User";
 function App() {
   return (
-    <DataProvaider>
-      <BrowserRouter>
-        <NavBar />
-        <Banner />
-        <Products />
-        <Title />
-        <Routes>
-          <Route path="/ cart" element={<DataContext />} />
-          <Route path="/" element={<ItemListContainer />} />
-        </Routes>
-      </BrowserRouter>
-    </DataProvaider>
+    <BrowserRouter>
+      <User />
+      <ApiPlaceholder />
+      <NavBar />
+      <Banner />
+      <Title />
+      <Routes>
+        <Route path="/" element={<ItemListContainer />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
