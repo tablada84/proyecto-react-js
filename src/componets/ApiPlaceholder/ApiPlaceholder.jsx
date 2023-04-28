@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+/* import React, { useEffect, useState } from "react";
 import User from "../User/User";
 
 const ApiPlaceholder = () => {
@@ -33,4 +33,4 @@ const ApiPlaceholder = () => {
   );
 };
 
-export default ApiPlaceholder;
+export default ApiPlaceholder; */
