@@ -6,6 +6,7 @@ import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ApiPlaceholder from "./componets/ApiPlaceholder/ApiPlaceholder";
 import User from "./componets/User/User";
+import { Productos } from "./componets/Productos/Productos";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Title />
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
+        <Route path="/productos" element={<Productos />} />
       </Routes>
     </BrowserRouter>
   );
