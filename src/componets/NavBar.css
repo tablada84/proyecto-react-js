@@ -25,12 +25,6 @@ body {
   width: 70px;
 }
 
-#row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .ul {
   padding: 0;
   margin: 0;
@@ -49,20 +43,20 @@ body {
   font-weight: 300;
 }
 
-#row li {
+.ul li {
   list-style: none;
   padding: 0 20px;
   position: relative;
 }
-#row li a {
+.li a {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
   color: rgb(131, 123, 123);
   transition: 0.3s ease-in-out;
 }
-#row li a:hover,
-#row li a.active {
+li a:hover,
+li a.active {
   color: white;
 }
 #row li a:hover::after,

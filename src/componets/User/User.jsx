@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import "./User.css";
 const User = ({ id, email, name }) => {
   return (
@@ -9,4 +9,4 @@ const User = ({ id, email, name }) => {
   );
 };
 
-export default User;
+export default User; */
