@@ -9,23 +9,23 @@ const Productos = [
     id: 1,
     nombre: "malbec",
     precio: 2000,
-    Image:
+    image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbGft4PQoenXOw8IcManweUpIErU73jU-k3w&usqp=CAU",
     cantidad: 10,
   },
   {
     id: 2,
-    nombre: "cavernet suavignon",
+    nombre: "cabernet suavignon",
     precio: 5000,
-    Image:
-      "https://www.gogle.com/imgres?imgurl=https%3A%2F%2Fwww.rutiniwines.com%2Fwp-content%2Fuploads%2F2022%2F03%2FPuntajes-Destacados-Para-Nuestros-Vinos_1200x800.jpg&tbnid=LlELFDyNvmemrM&vet=10CAEQMyhoahcKEwjAstXdlNT-AhUAAAAAHQAAAAAQAw..i&imgrefurl=https%3A%2F%2Fwww.rutiniwines.com%2F2022%2F04%2F01%2Fpuntajes-destacados-para-nuestros-vinos%2F&docid=nfvpJaK4BYLS5M&w=1200&h=800&q=imagen%20de%20vinos&ved=0CAEQMyhoahcKEwjAstXdlNT-AhUAAAAAHQAAAAAQAw",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQaQxZl9ROLiHohqOBfWIdZ8_CVGyUikZ1VQ&usqp=CAU",
     cantidad: 10,
   },
   {
     id: 3,
     nombre: "chardonne",
     precio: 2000,
-    Image:
+    image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWS_TURfBr1TYEEQBFG8V9um0eDTu6zriwX7mcWc8zmblFygc3-rbIAEjBKdzsTwoUr60&usqp=CAU",
     cantidad: 10,
   },
@@ -33,7 +33,7 @@ const Productos = [
     id: 4,
     nombre: "merlot",
     precio: 3000,
-    Image:
+    image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWaR7H43UkMX6GfI5HYS3QTw0HNPCIUblMZXqpTBdWVZIh1ZQUGQ2tUrQuNm1GNYgXVY8&usqp=CAU",
     cantidad: 10,
   },
@@ -41,7 +41,7 @@ const Productos = [
     id: 5,
     nombre: "toro",
     precio: 200,
-    Image:
+    image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWaR7H43UkMX6GfI5HYS3QTw0HNPCIUblMZXqpTBdWVZIh1ZQUGQ2tUrQuNm1GNYgXVY8&usqp=CAU",
     cantidad: 10,
   },
