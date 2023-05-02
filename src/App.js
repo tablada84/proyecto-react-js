@@ -7,8 +7,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 /* import ApiPlaceholder from "./componets/ApiPlaceholder/ApiPlaceholder"; */
 /* import User from "./componets/User/User"; */
 
-import Item from "./componets/Item/Item";
-import ItemList from "./componets/ItemList/ItemList";
 import ItemDetailContainer from "./componets/ItemDetailContainer/ItemDetailContainer";
 import CartWidget from "./componets/CartWidget/Index";
 
@@ -21,8 +19,6 @@ function App() {
       <NavBar />
       <Banner />
       <Title />
-      <Item />
-      <ItemList />
 
       <Routes>
         <Route path="/" element={<ItemListContainer />} />

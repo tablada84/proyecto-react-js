@@ -4,8 +4,9 @@ import "./Item.css";
 const Item = ({ data }) => {
   return (
     <a href=" " className="Productos">
-      <img src={data.image} alt="" />
+      <img src={data.nombre} alt={data.image} />
       <p>{data.nombre}</p>
+      <p>{data.precio}</p>
     </a>
   );
 };
