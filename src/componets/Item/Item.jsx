@@ -1,7 +1,7 @@
 import React from "react";
 import "./Item.css";
 
-const Item = () => {
+const Item = ({ data }) => {
   return (
     <a href=" " className="Productos">
       <img
