@@ -4,7 +4,7 @@ const Productos = {
   id: 1,
   nombre: "malbec",
   precio: 200,
-  Image:
+  image:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbGft4PQoenXOw8IcManweUpIErU73jU-k3w&usqp=CAU",
   cantidad: 10,
 };
