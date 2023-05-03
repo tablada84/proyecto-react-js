@@ -26,7 +26,7 @@ const Productos = [
     nombre: "chardonne",
     precio: 2000,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo2w8uL8SekMhW1vAZtyj5jBjRNZxK1v3fmQ&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhAu4uets4SO6zIhNx2ZPM57CP8RR0_KDNVA&usqp=CAU",
     cantidad: 10,
   },
   {
@@ -34,7 +34,7 @@ const Productos = [
     nombre: "merlot",
     precio: 3000,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWaR7H43UkMX6GfI5HYS3QTw0HNPCIUblMZXqpTBdWVZIh1ZQUGQ2tUrQuNm1GNYgXVY8&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHeaUw6HWk15f4lfj1N9c-BG2nrsXCLsVrQ&usqp=CAU",
     cantidad: 10,
   },
   {
@@ -42,7 +42,7 @@ const Productos = [
     nombre: "toro",
     precio: 200,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWaR7H43UkMX6GfI5HYS3QTw0HNPCIUblMZXqpTBdWVZIh1ZQUGQ2tUrQuNm1GNYgXVY8&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO764MRZzscfPBaukugLmAlMfApbYtJkY9wg&usqp=CAU",
     cantidad: 10,
   },
 ];
