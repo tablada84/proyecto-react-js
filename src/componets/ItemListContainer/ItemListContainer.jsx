@@ -50,21 +50,21 @@ const Productos = [
 export const ItemListContainer = ({ texto }) => {
   const [data, setData] = useState([]);
 
-  const { ProductosId } = useParams();
+  const { ContactosId } = useParams();
   useEffect(() => {
     const getData = new Promise((resolve) => {
       setTimeout(() => {
         resolve(Productos);
       }, 3000);
     });
-    if (ProductosId) {
+    if (ContactosId) {
       getData.then((res) =>
-        setData(res.filter((Productos) => Productos.Productos === ProductosId))
+        setData(res.filter((Productos) => Productos.Contactos === ContactosId))
       );
     } else {
       getData.then((res) => setData(res));
     }
-  }, [ProductosId]);
+  }, [ContactosId]);
 
   const onAdd = (quantity) => {
     console.log(`Compraste ${quantity} unidades`);
