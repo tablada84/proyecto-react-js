@@ -16,9 +16,9 @@ const ItemDetail = ({ data }) => {
           <h1>{data.nombre}</h1>
           <h4>{data.precio}</h4>
           {goToCart ? (
-            <Link to="/cart">Termino la Compra</Link>
+            <Link to="/cart">Terminar Compra</Link>
           ) : (
-            <ItemCount Initial={3} stock={5} onAdd={onAdd} />
+            <ItemCount Initial={3} stock={10} onAdd={onAdd} />
           )}
         </div>
       </div>
