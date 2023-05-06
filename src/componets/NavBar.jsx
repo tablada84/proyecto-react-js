@@ -16,8 +16,8 @@ export default function NavBar() {
           </NavLink>
         </li>
         <li>
-          <NavLink className="Nav_link" to="/Contactos/Contactos">
-            Contactos
+          <NavLink className="Nav_link" to="/Formulario/Formulario">
+            Formulario
           </NavLink>
         </li>
         <li>

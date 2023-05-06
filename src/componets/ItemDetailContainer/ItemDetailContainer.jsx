@@ -52,7 +52,7 @@ export const ItemDetailContainer = () => {
   const getData = new Promise((resolve) => {
     setTimeout(() => {
       resolve(Productos);
-    }, 3000);
+    }, 1000);
   });
   useEffect(() => {
     getData.then((res) =>

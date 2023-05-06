@@ -50,21 +50,23 @@ const Productos = [
 export const ItemListContainer = ({ texto }) => {
   const [data, setData] = useState([]);
 
-  const { ContactosId } = useParams();
+  const { FormularioId } = useParams();
   useEffect(() => {
     const getData = new Promise((resolve) => {
       setTimeout(() => {
         resolve(Productos);
-      }, 3000);
+      }, 1000);
     });
-    if (ContactosId) {
+    if (FormularioId) {
       getData.then((res) =>
-        setData(res.filter((Productos) => Productos.Contactos === ContactosId))
+        setData(
+          res.filter((Productos) => Productos.Formulario === FormularioId)
+        )
       );
     } else {
       getData.then((res) => setData(res));
     }
-  }, [ContactosId]);
+  }, [FormularioId]);
 
   return (
     <>
