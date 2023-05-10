@@ -71,7 +71,6 @@ export const ItemListContainer = ({ texto }) => {
   return (
     <>
       <Title greeting="Bienvenido" />
-
       <ItemList data={data} />
     </>
   );
