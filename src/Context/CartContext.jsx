@@ -19,6 +19,16 @@ const CartProvider = ({ children }) => {
     setCart(newCart);
   };
 
+  const totalPrecio = () => {
+    return cart.reduce((prev, act) => prev + act.quantity * act.precio, 0);
+  };
+
+  const totalProductos = () =>
+    cart.reduce(
+      (acumulador, productoActual) => acumulador + productoActual.quantity,
+      0
+    );
+
   const clearCart = () => setCart([]);
 
   const isInCart = (id) =>
@@ -33,7 +43,10 @@ const CartProvider = ({ children }) => {
         clearCart,
         isInCart,
         removeProductos,
-        addProductos: addProductos,
+        addProductos,
+        totalProductos,
+        totalPrecio,
+        cart,
       }}
     >
       {children}
