@@ -5,7 +5,7 @@ import Banner from "./componets/Banner/Banner";
 import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ItemDetailContainer from "./componets/ItemDetailContainer/ItemDetailContainer";
-import CartWidget from "./componets/CartWidget/Index";
+import Cart from "./componets/Cart/Cart";
 import CartProvider from "./Context/CartContext";
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             path="/Productos/:ContactosId"
             element={<ItemListContainer />}
           />
-          <Route path="/cart" element={<CartWidget />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="/detalle/:detalleId" element={<ItemDetailContainer />} />
         </Routes>
       </CartProvider>
