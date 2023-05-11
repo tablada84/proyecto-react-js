@@ -1,7 +1,7 @@
-import React, { useState, useContext } from "react";
-const CartContext = React.createContext([]);
+import React, { useState, useContext, createContext } from "react";
+export const CartContext = createContext([]);
 
-export const useCartContext = () => useContext;
+export const useCartContext = () => useContext(CartContext);
 
 const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
@@ -11,7 +11,7 @@ const CartProvider = ({ children }) => {
     let productos = cart.find((productos) => productos.id === item.id);
     if (productos) {
       productos.quantity += quantity;
-      newCart = [...cart];
+      newCart = [...cart, productos];
     } else {
       productos = { ...item, quantity: quantity };
       newCart = [...cart, productos];
@@ -33,7 +33,7 @@ const CartProvider = ({ children }) => {
         clearCart,
         isInCart,
         removeProductos,
-        addProductos,
+        addProductos: addProductos,
       }}
     >
       {children}
