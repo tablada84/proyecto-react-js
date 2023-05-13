@@ -16,7 +16,7 @@ export default function NavBar() {
           </NavLink>
         </li>
         <li>
-          <NavLink className="Nav_link" to="/Formulario/FormularioId">
+          <NavLink className="Nav_link" to="/FormularioId">
             Formulario
           </NavLink>
         </li>

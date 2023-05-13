@@ -37,7 +37,7 @@ body {
 .navbar a {
   color: inherit;
   height: 100%;
-  display: flex;
+  display: inline-block;
   align-items: center;
   padding: 0.25rem;
   font-weight: 300;

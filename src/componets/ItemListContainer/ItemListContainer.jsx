@@ -21,7 +21,7 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5VRvMTK3Kf62bUTqH7Z58yxOVVpV6ifCrA&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria1",
+    categoria: "nombreCategoria2",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsF7toHFbMd1z5nGUHazO4LcPrOfHIBfh5rA&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria1",
+    categoria: "nombreCategoria3",
   },
   {
     id: 4,
@@ -39,6 +39,7 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHeaUw6HWk15f4lfj1N9c-BG2nrsXCLsVrQ&usqp=CAU",
     cantidad: 10,
+    categoria: "nombreCategoria4",
   },
   {
     id: 5,
@@ -47,7 +48,7 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO764MRZzscfPBaukugLmAlMfApbYtJkY9wg&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria1",
+    categoria: "nombreCategoria5",
   },
 ];
 
@@ -63,7 +64,7 @@ export const ItemListContainer = ({ texto }) => {
     });
     if (FormularioId) {
       getData.then((res) =>
-        console.log(
+        setData.then(
           res.filter((Productos) => Productos.categoria === FormularioId)
         )
       );
