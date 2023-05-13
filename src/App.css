@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
-  scroll-behavior: smooth;
-  scroll-padding-top: 4rem;
   list-style: none;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(126, 111, 96);
 }

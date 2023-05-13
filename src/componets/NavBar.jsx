@@ -16,8 +16,23 @@ export default function NavBar() {
           </NavLink>
         </li>
         <li>
-          <NavLink className="Nav_link" to="/Formulario/Formulario">
+          <NavLink className="Nav_link" to="/Formulario/FormularioId">
             Formulario
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="Nav_link" to="/Vinos/Cabernet">
+            Cabernet
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="Nav_link" to="/Vinos/Malbec">
+            Malbec
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="Nav_link" to="/Vinos/Chardonnay">
+            Chardonnay
           </NavLink>
         </li>
         <li>

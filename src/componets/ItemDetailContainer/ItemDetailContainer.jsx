@@ -5,43 +5,48 @@ import { useParams } from "react-router-dom";
 const Productos = [
   {
     id: 1,
-    nombre: "malbec",
+    nombre: "Malbec",
     precio: 2000,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkcXEljq9MzQzHLsUVcUMLpQZm2u3IT8znpw&usqp=CAU",
     cantidad: 10,
+    categoria: "nombreCategoria1",
   },
   {
     id: 2,
-    nombre: "cabernet suavignon",
+    nombre: "Cabernet Suavignon",
     precio: 5000,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5VRvMTK3Kf62bUTqH7Z58yxOVVpV6ifCrA&usqp=CAU",
     cantidad: 10,
+    categoria: "nombreCategoria1",
   },
   {
     id: 3,
-    nombre: "chardonne",
+    nombre: "Chardonnay",
     precio: 2000,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhAu4uets4SO6zIhNx2ZPM57CP8RR0_KDNVA&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsF7toHFbMd1z5nGUHazO4LcPrOfHIBfh5rA&usqp=CAU",
     cantidad: 10,
+    categoria: "nombreCategoria1",
   },
   {
     id: 4,
-    nombre: "merlot",
+    nombre: "Merlot",
     precio: 3000,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHeaUw6HWk15f4lfj1N9c-BG2nrsXCLsVrQ&usqp=CAU",
     cantidad: 10,
+    categoria: "nombreCategoria1",
   },
   {
     id: 5,
-    nombre: "toro",
-    precio: 200,
+    nombre: "Malbec-Cabernet",
+    precio: 2050,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO764MRZzscfPBaukugLmAlMfApbYtJkY9wg&usqp=CAU",
     cantidad: 10,
+    categoria: "nombreCategoria1",
   },
 ];
 
@@ -59,8 +64,12 @@ export const ItemDetailContainer = () => {
       setData(res.find((Productos) => Productos.id === parseInt(detalleId)))
     );
   }, [detalleId]);
-  console.log(data);
-  return <ItemDetail data={data} />;
+  setData(data);
+  return (
+    <div>
+      <ItemDetail data={data} />;
+    </div>
+  );
 };
 
 export default ItemDetailContainer;

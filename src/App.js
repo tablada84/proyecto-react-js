@@ -16,9 +16,10 @@ function App() {
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route
-            path="/Productos/:ContactosId"
+            path="/Productos/:ContactoId"
             element={<ItemListContainer />}
           />
+          <Route path="/Vinos/FormularioId" element={<ItemListContainer />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/detalle/:detalleId" element={<ItemDetailContainer />} />
         </Routes>

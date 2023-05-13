@@ -6,7 +6,7 @@ const Item = ({ data }) => {
     <Link to={`/detalle/${data.id}`} className="Productos">
       <img src={data.image} alt={data.nombre} />
       <p>{data.nombre}</p>
-      <p>{data.precio}</p>
+      <p>${data.precio}</p>
     </Link>
   );
 };
