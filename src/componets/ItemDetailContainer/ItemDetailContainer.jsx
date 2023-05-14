@@ -10,7 +10,7 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkcXEljq9MzQzHLsUVcUMLpQZm2u3IT8znpw&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria1",
+    categoria: "vinoCategoria1",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5VRvMTK3Kf62bUTqH7Z58yxOVVpV6ifCrA&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria1",
+    categoria: "vinoCategoria1",
   },
   {
     id: 3,
@@ -28,16 +28,16 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsF7toHFbMd1z5nGUHazO4LcPrOfHIBfh5rA&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria1",
+    categoria: "vinoCategoria2",
   },
   {
     id: 4,
-    nombre: "Merlot",
+    nombre: "Malbec",
     precio: 3000,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHeaUw6HWk15f4lfj1N9c-BG2nrsXCLsVrQ&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria1",
+    categoria: "vinoCategoria1",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO764MRZzscfPBaukugLmAlMfApbYtJkY9wg&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria1",
+    categoria: "vinoCategoria3",
   },
 ];
 

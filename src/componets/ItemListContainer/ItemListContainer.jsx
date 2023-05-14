@@ -12,7 +12,7 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkcXEljq9MzQzHLsUVcUMLpQZm2u3IT8znpw&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria1",
+    categoria: "vinoTinto",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5VRvMTK3Kf62bUTqH7Z58yxOVVpV6ifCrA&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria2",
+    categoria: "vinoTinto1",
   },
   {
     id: 3,
@@ -30,16 +30,16 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsF7toHFbMd1z5nGUHazO4LcPrOfHIBfh5rA&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria3",
+    categoria: "vinoBlanco",
   },
   {
     id: 4,
-    nombre: "Merlot",
+    nombre: "Malbec",
     precio: 3000,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHeaUw6HWk15f4lfj1N9c-BG2nrsXCLsVrQ&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria4",
+    categoria: "vinoTinto",
   },
   {
     id: 5,
@@ -48,30 +48,28 @@ const Productos = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO764MRZzscfPBaukugLmAlMfApbYtJkY9wg&usqp=CAU",
     cantidad: 10,
-    categoria: "nombreCategoria5",
+    categoria: "vinoTinto",
   },
 ];
 
 export const ItemListContainer = ({ texto }) => {
   const [data, setData] = useState([]);
 
-  const { FormularioId } = useParams();
+  const { categoriaId } = useParams();
   useEffect(() => {
     const getData = new Promise((resolve) => {
       setTimeout(() => {
         resolve(Productos);
       }, 1000);
     });
-    if (FormularioId) {
+    if (categoriaId) {
       getData.then((res) =>
-        setData.then(
-          res.filter((Productos) => Productos.categoria === FormularioId)
-        )
+        setData(res.filter((Productos) => Productos.categoria === categoriaId))
       );
     } else {
       getData.then((res) => setData(res));
     }
-  }, [FormularioId]);
+  }, [categoriaId]);
 
   return (
     <>

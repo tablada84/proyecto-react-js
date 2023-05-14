@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const useSingUpUS = () => {
+export const useProductosUS = () => {
   const [Productos, setProductos] = useState([{}]);
 
   setProductos([
@@ -45,7 +45,10 @@ export const useSingUpUS = () => {
       cantidad: 10,
     },
   ]);
-  return <div>Productos</div>;
+  return {
+    Productos,
+    setProductos,
+  };
 };
 
-export default Productos;
+export default useProductosUS;

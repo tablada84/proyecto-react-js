@@ -11,27 +11,17 @@ export default function NavBar() {
 
       <ul className="nav_list">
         <li>
-          <NavLink className="Nav_link" to="/Productos/Productos">
-            Productos
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="Nav_link" to="/FormularioId">
-            Formulario
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="Nav_link" to="/Vinos/Cabernet">
-            Cabernet
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="Nav_link" to="/Vinos/Malbec">
+          <NavLink className="Nav_link" to="/categoria/vinoTinto">
             Malbec
           </NavLink>
         </li>
         <li>
-          <NavLink className="Nav_link" to="/Vinos/Chardonnay">
+          <NavLink className="Nav_link" to="/categoria/vinoTinto1">
+            Cabernet-suavignon
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="Nav_link" to="/categoria/vinoBlanco/">
             Chardonnay
           </NavLink>
         </li>
