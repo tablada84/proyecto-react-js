@@ -1,37 +1,50 @@
 [
   {
     "id": 1,
-    "nombre": "chardonne",
-    "precio": 200,
-    "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ffamiliacaruso.com.ar%2Fwp-content%2Fuploads%2F2016%2F05%2Fbonarda.png&tbnid=iJ9vbdC0k8algM&vet=12ahUKEwiV2sXjus_-AhXtrJUCHYGDDX8QMygCegUIARCvAQ..i&imgrefurl=https%3A%2F%2Ffamiliacaruso.com.ar%2Fes%2F&docid=zMO77IJOWECsIM&w=222&h=752&q=familia%20caruso%20vino&ved=2ahUKEwiV2sXjus_-AhXtrJUCHYGDDX8QMygCegUIARCvAQ",
-    "cantidad": 1
+    "nombre": "Malbec",
+    "precio": 2000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkcXEljq9MzQzHLsUVcUMLpQZm2u3IT8znpw&usqp=CAU",
+    "cantidad": 10,
+    "categoria": "vinoCategoria1"
   },
   {
     "id": 2,
-    "nombre": "suavignon",
-    "precio": 500,
-    "img": "../img/nueces 3.jpg",
-    "cantidad": 1
+    "nombre": "Cabernet Suavignon",
+    "precio": 5000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5VRvMTK3Kf62bUTqH7Z58yxOVVpV6ifCrA&usqp=CAU",
+    "cantidad": 10,
+    "categoria": "vinoCategoria1"
   },
   {
     "id": 3,
-    "nombre": "cabernet malbec",
-    "precio": 200,
-    "img": "../img/pasas negras.jpg",
-    "cantidad": 1
+    "nombre": "Chardonnay",
+    "precio": 2000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsF7toHFbMd1z5nGUHazO4LcPrOfHIBfh5rA&usqp=CAU",
+    "cantidad": 10,
+    " categoria": "vinoCategoria2"
   },
   {
     "id": 4,
-    "nombre": "malbec",
-    "precio": 300,
-    "img": "../img/mixfrutal3.jpg",
-    "cantidad": 1
+    "nombre": "Malbec",
+    "precio": 3000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHeaUw6HWk15f4lfj1N9c-BG2nrsXCLsVrQ&usqp=CAU",
+    "cantidad": 10,
+    "categoria": "vinoCategoria1"
   },
   {
     "id": 5,
-    "nombre": "cabernet",
-    "precio": 200,
-    "img": "../img/mani 3.jpg",
-    "cantidad": 1
+    "nombre": "Malbec-Cabernet",
+    "precio": 2050,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO764MRZzscfPBaukugLmAlMfApbYtJkY9wg&usqp=CAU",
+    "cantidad": 10,
+    "categoria": "vinoCategoria3"
+  },
+  {
+    "id": 6,
+    "nombre": "Chardonnay",
+    "precio": 2300,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJwSn4mjNw47Wqa04SlTDqy0Xf1e3ZdiOonREAwnJLHpApMbq86ZhJ2-KCCKPYW9S2-bg&usqp=CAU",
+    "cantidad": 10,
+    "categoria": "vinoCategoria2"
   }
 ]
