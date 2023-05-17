@@ -1,0 +1,13 @@
+form {
+  max-width: 400px;
+  border-radius: 3px;
+  color: rgb(61, 50, 50);
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+input {
+  display: grid;
+  margin-bottom: 12px;
+  padding: 5px;
+}

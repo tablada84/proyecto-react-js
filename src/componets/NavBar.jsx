@@ -26,6 +26,11 @@ export default function NavBar() {
           </NavLink>
         </li>
         <li>
+          <NavLink className="Nav_link" to="/Registro/Registro">
+            Registro
+          </NavLink>
+        </li>
+        <li>
           <NavLink className="Nav_link" to="cart">
             <CartWidget />
           </NavLink>

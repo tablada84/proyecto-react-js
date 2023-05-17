@@ -7,8 +7,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ItemDetailContainer from "./componets/ItemDetailContainer/ItemDetailContainer";
 import Cart from "./componets/Cart/Cart";
 import CartProvider from "./Context/CartContext";
+
+import Registro from "./componets/Registro/Registro";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -23,14 +26,13 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 function App() {
   return (
     <BrowserRouter>
       <CartProvider>
         <NavBar />
         <Banner />
-
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route
@@ -39,6 +41,7 @@ function App() {
           />
           <Route path="/cart" element={<Cart />} />
           <Route path="/detalle/:detalleId" element={<ItemDetailContainer />} />
+          <Route path="/Registro/Registro" element={<Registro />} />
         </Routes>
       </CartProvider>
     </BrowserRouter>

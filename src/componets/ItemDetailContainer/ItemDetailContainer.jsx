@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 export const ItemDetailContainer = () => {
   const [data, setData] = useState({});
   const { detalleId } = useParams();
+
   useEffect(() => {
     const querydb = getFirestore();
     const queryDoc = doc(querydb, "Productos", detalleId);
