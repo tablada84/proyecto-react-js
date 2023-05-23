@@ -4,37 +4,32 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 
 export const Registro = () => {
   const { cart, totalPrecio } = useCartContext();
-  const order = {
-    buyer: {
-      nombre: " ",
-      email: " ",
-      direccion: " ",
-      edad: " ",
-      telefono: " ",
-    },
-    items: cart.map((productos) => ({
-      id: productos.id,
-      nombre: productos.precio,
-      quantity: productos.quantity,
-    })),
-    total: totalPrecio(),
-  };
-
-  const handleClick = () => {
-    const db = getFirestore();
-    const ordersCollection = collection(db, "orders");
-    addDoc(ordersCollection, order, alert("Su registro fue exitoso !!!")).then(
-      ({ id }) => console.log(id)
-    );
-  };
-
   const {
     register,
     formState: { errors },
     watch,
     handleSubmit,
   } = useForm();
+
   const onSubmit = (data) => {
+    const order = {
+      buyer: {
+        buyer: data,
+      },
+      items: cart.map((productos) => ({
+        id: productos.id,
+        nombre: productos.nombre,
+        precio: productos.precio,
+        cantidad: productos.cantidad,
+        quantity: productos.quantity,
+      })),
+      total: totalPrecio(),
+    };
+    const db = getFirestore();
+    const ordersCollection = collection(db, "orders");
+    addDoc(ordersCollection, order, alert("Su  registro fue exitoso !!!")).then(
+      ({ id }) => console.log(id)
+    );
     console.log(data);
   };
 
@@ -79,7 +74,7 @@ export const Registro = () => {
         )}
         <input type="submit" value="Enviar"></input>
 
-        <button onClick={handleClick}>Enviar</button>
+        <button onClick={onSubmit}>Enviar</button>
       </form>
     </div>
   );
