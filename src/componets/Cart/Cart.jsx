@@ -5,24 +5,14 @@ import ItemCart from "../ItemCart/ItemCart";
 import { addDoc, collection, getFirestore } from "firebase/firestore";
 const Cart = () => {
   const { cart, totalPrecio } = useCartContext();
-  const order = {
-    buyer: {
-      nombre: "matias",
-      email: "matias@gmail.com",
-      telefono: "3512342546",
-    },
-    items: cart.map((productos) => ({
-      id: productos.id,
-      nombre: productos.precio,
-      quantity: productos.quantity,
-    })),
-    total: totalPrecio(),
-  };
 
   const handleClick = () => {
     const db = getFirestore();
     const ordersCollection = collection(db, "orders");
-    addDoc(ordersCollection, order).then(({ id }) => console.log(id));
+    addDoc(
+      ordersCollection,
+      alert("Su compra se realizo correctamente!!!")
+    ).then(({ id }) => console.log(id));
   };
 
   if (cart.length === 0) {

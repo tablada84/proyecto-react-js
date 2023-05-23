@@ -10,4 +10,5 @@ input {
   display: grid;
   margin-bottom: 12px;
   padding: 5px;
+  background: scroll;
 }

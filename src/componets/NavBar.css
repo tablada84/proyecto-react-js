@@ -1,15 +1,3 @@
-* {
-  box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
-  scroll-behavior: smooth;
-  scroll-padding-top: 4rem;
-  list-style: none;
-  text-decoration: none;
-}
-body {
-  margin: 0;
-}
-
 .navbar {
   background-color: black;
   color: rgb(139, 130, 130);
@@ -25,45 +13,41 @@ body {
   width: 70px;
 }
 
-.ul {
+.navbar ul {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
   position: relative;
 }
 .navbar a {
   color: inherit;
-  height: 100%;
-  display: inline-block;
+  height: 200%;
+  display: flex;
   align-items: center;
-  padding: 0.25rem;
+  padding: 5rem;
   font-weight: 300;
 }
 
-.ul li {
+.navbar ul li a {
+  display: block;
   list-style: none;
   padding: 0 20px;
   position: relative;
+  border-radius: 50px;
+  font-weight: 300;
+  font-size: 20px;
 }
 .li a {
   text-decoration: none;
+
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 500;
   color: rgb(131, 123, 123);
   transition: 0.3s ease-in-out;
 }
 li a:hover,
 li a.active {
   color: white;
-}
-#row li a:hover::after,
-#row li a.active::after {
-  content: "";
-  width: 30%;
-  height: 2px;
-  background: gray;
-  position: relative;
 }

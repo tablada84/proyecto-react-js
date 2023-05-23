@@ -50,6 +50,7 @@ const CartProvider = ({ children }) => {
       }}
     >
       {children}
+      <button onClick={clearCart}>vaciar carrito</button>
     </CartContext.Provider>
   );
 };
