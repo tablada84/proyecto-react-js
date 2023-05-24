@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { useCartContext } from "../../Context/CartContext";
 import { addDoc, collection, getFirestore } from "firebase/firestore";
-
+import "./Registro.css";
 export const Registro = () => {
   const { cart, totalPrecio } = useCartContext();
   const {

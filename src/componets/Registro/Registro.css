@@ -1,14 +1,17 @@
 form {
-  max-width: 400px;
-  border-radius: 3px;
-  color: rgb(61, 50, 50);
+  width: 420px;
+  border-radius: 5px;
+  color: rgb(14, 11, 11);
   justify-content: center;
   flex-direction: column;
   margin: auto;
+  background-color: rgb(179, 165, 165);
 }
 input {
   display: grid;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   padding: 5px;
   background: scroll;
+  color: rgb(10, 9, 9);
+  width: 400px;
 }
