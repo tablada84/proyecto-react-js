@@ -73,8 +73,6 @@ export const Registro = () => {
           </div>
         )}
         <input type="submit" value="Enviar"></input>
-
-        <button onClick={onSubmit}>Enviar</button>
       </form>
     </div>
   );

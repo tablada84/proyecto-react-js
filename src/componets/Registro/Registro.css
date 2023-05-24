@@ -1,11 +1,13 @@
 form {
+  display: grid;
   width: 420px;
   border-radius: 5px;
+  box-sizing: border-box;
   color: rgb(14, 11, 11);
   justify-content: center;
   flex-direction: column;
   margin: auto;
-  background-color: rgb(179, 165, 165);
+  background-color: rgb(173, 170, 170);
 }
 input {
   display: grid;
@@ -14,4 +16,8 @@ input {
   background: scroll;
   color: rgb(10, 9, 9);
   width: 400px;
+}
+input p {
+  color: aliceblue;
+  background-color: rgb(128, 121, 121);
 }
