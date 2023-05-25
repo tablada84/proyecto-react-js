@@ -7,6 +7,9 @@
 ---
 
 ####Frameworks, Librerias
+
+---
+
 [![Minimum node.js version](https://badgen.net/npm/node/express)](https://npmjs.com/package/express)
 [![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
 [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
@@ -21,10 +24,10 @@ deploy [proyecto-react-js](http://localhost:3000).
 ---
 
 Create a new React-create-app
-Develop mode
-React Router Dom
-React Icons
-Firebase
+Develop mode npm start
+React Router Dom npm install react-router-dom": "^6.0.2"
+Deploy npm run buil
+Firebase "firebase": "^9.22.0"
 #####Descrpcion
 
 Este proyecto fue realizado en React, donde podemos ver los distintos tipos de productos relacionados con el buen vino, que se encuentran almacenados en una base de dato firebase.
