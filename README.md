@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+## E-commerce - Matias agustin mariño
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ![](https://tangol.com/blog/Fotos/Notas/las-mas-destacadas-bodegas-en-el-valle-de-uco_162_202102111802480.PNG)
 
-## Available Scripts
+###Caruso-Wine - App con React
 
-In the project directory, you can run:
+---
 
-### `npm start`
+####Frameworks, Librerias
+[![Minimum node.js version](https://badgen.net/npm/node/express)](https://npmjs.com/package/express)
+[![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
+[![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
+[![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+deploy [proyecto-react-js](http://localhost:3000).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+#####Comandos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+Create a new React-create-app
+Develop mode
+React Router Dom
+React Icons
+Firebase
+#####Descrpcion
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este proyecto fue realizado en React, donde podemos ver los distintos tipos de productos relacionados con el buen vino, que se encuentran almacenados en una base de dato firebase.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+En el primer pagina se puede visualizar todos los productos, todos con sus respectivos detalles, precio, variedad, cantidad de cada linea de vinos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+####Productos
+Se puede seleccionar el producto directamente en la pagina principal llevandolo directamente al carrito de compras, se puede ver el detalle de cada vino seleccionandolo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Una vez se re sumara la cantidad y el mostra el total de la compra con un boton emitir compra, luego se llenar un registro con los datos de usuario para lograr llevar los datos tanto de los producto que a saleccionado con el total y los datos del usuaria a una base de dato " firebase".
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+####Carrito
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Se prodra seleccionar dentro del Navbar en el icono carrito el precio total de la compra y los detalles de lo que se a seleccionado, con botones emitir comprar, vaciar carrito, o eliminar producto.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Formulario
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se realizzo el formulario con el motivo de que el usuario pueda registrarse con la informacion necesaria para tener en la base de datos de la persona que esta emitiendo la compra,
+nombre y apellido, email, direccion y telefono.

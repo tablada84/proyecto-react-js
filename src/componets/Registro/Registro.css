@@ -9,15 +9,29 @@ form {
   margin: auto;
   background-color: rgb(173, 170, 170);
 }
-input {
-  display: grid;
-  margin-bottom: 18px;
-  padding: 5px;
-  background: scroll;
-  color: rgb(10, 9, 9);
-  width: 400px;
+
+form label {
+  display: inline-block;
+  margin-bottom: 7px;
+  font-weight: 200px;
 }
+
+form input {
+  background-color: rgb(187, 194, 199);
+  display: block;
+  margin-bottom: 18px;
+  font-family: inherit;
+  padding: 12px;
+  background: scroll;
+  width: 400px;
+  font-size: 16px;
+}
+
 input p {
   color: aliceblue;
   background-color: rgb(128, 121, 121);
+}
+
+form button {
+  background: rgb(189, 158, 158);
 }
