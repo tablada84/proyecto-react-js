@@ -52,7 +52,13 @@ export const Registro = () => {
         </div>
         <div>
           <label>email</label>
-          <input type="text" {...register("email", { required: true })} />
+          <input
+            type="text"
+            {...register("email", { pattern: /\w+@+[gmail]\w+\.+[a-z]/ })}
+          />
+          {errors.email?.type === "pattern" && (
+            <p>El formato del email es incorrecto</p>
+          )}
         </div>
         <div>
           <label>direccion</label>
