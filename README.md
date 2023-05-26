@@ -60,3 +60,4 @@ Se podra seleccionar dentro del Navbar en el icono carrito, para seleccionar pro
 
 Se realizo el formulario con el motivo de que el usuario pueda registrarse con la informacion requerida para tener en la base de datos la persona que esta emitiendo la compra,
 nombre, email, direccion y telefono.
+Cada campo tiene una validacion para corroborar que los datos sean correctos, luego que los campos sean completados se emitira un mensaje que su registro fue exitoso.
