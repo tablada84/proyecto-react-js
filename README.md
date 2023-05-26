@@ -28,7 +28,10 @@ Develop mode npm start
 React Router Dom npm install react-router-dom": "^6.0.2"
 Deploy npm run buil
 Firebase "firebase": "^9.22.0"
-#####Descrpcion
+
+---
+
+**Descrpcion**
 
 Este proyecto fue realizado en React, donde podemos ver los distintos tipos de productos relacionados con el buen vino, que se encuentran almacenados en una base de dato firebase.
 
