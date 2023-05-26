@@ -23,11 +23,11 @@ deploy [proyecto-react-js](http://localhost:3000).
 
 ---
 
-Create a new React-create-app
-Develop mode npm start
-React Router Dom npm install react-router-dom": "^6.0.2"
-Deploy npm run buil
-Firebase "firebase": "^9.22.0"
+_Create a new React-create-app_
+_Develop mode npm start_
+_React Router Dom npm install react-router-dom": "^6.0.2"_
+_Deploy npm run buil_
+_Firebase "firebase": "^9.22.0"_
 
 ---
 
