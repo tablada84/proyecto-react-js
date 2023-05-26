@@ -1,12 +1,12 @@
-## E-commerce - Matias agustin mariño
+**E-commerce - Matias agustin mariño**
 
 ## ![](https://tangol.com/blog/Fotos/Notas/las-mas-destacadas-bodegas-en-el-valle-de-uco_162_202102111802480.PNG)
 
-###Caruso-Wine - App con React
+**_Caruso-Wine - App con React_**
 
 ---
 
-####Frameworks, Librerias
+_Frameworks, Libreria_
 
 ---
 
@@ -19,7 +19,7 @@ deploy [proyecto-react-js](http://localhost:3000).
 
 ---
 
-#####Comandos
+**Comandos**
 
 ---
 
@@ -36,20 +36,20 @@ En el primer pagina se puede visualizar todos los productos, todos con sus respe
 
 ---
 
-####Productos
+**Productos**
 Se puede seleccionar el producto directamente en la pagina principal llevandolo directamente al carrito de compras, se puede ver el detalle de cada vino seleccionandolo.
 
 Una vez se re sumara la cantidad y el mostra el total de la compra con un boton emitir compra, luego se llenar un registro con los datos de usuario para lograr llevar los datos tanto de los producto que a saleccionado con el total y los datos del usuaria a una base de dato " firebase".
 
 ---
 
-####Carrito
+**Carrito**
 
 Se prodra seleccionar dentro del Navbar en el icono carrito el precio total de la compra y los detalles de lo que se a seleccionado, con botones emitir comprar, vaciar carrito, o eliminar producto.
 
 ---
 
-#### Formulario
+**Formulario**
 
 Se realizzo el formulario con el motivo de que el usuario pueda registrarse con la informacion necesaria para tener en la base de datos de la persona que esta emitiendo la compra,
 nombre y apellido, email, direccion y telefono.
