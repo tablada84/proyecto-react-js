@@ -1,4 +1,4 @@
-**[proyecto-react-js](https://tablada84.github.io/proyecto-react-js/) - Matias agustin mariño**
+**[proyecto-react-js](https://github.com/tablada84/proyecto-react-js) - Matias agustin mariño**
 
 ## ![proyecto-react-js](https://tangol.com/blog/Fotos/Notas/las-mas-destacadas-bodegas-en-el-valle-de-uco_162_202102111802480.PNG)
 
@@ -15,7 +15,7 @@ _Frameworks, Libreria y tools con sus versiones_
 [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
 [![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
 
-deploy [proyecto-react-js](https://tablada84.github.io/proyecto-react-js/).
+deploy [proyecto-react-js](https://github.com/tablada84/proyecto-react-js).
 
 ---
 
