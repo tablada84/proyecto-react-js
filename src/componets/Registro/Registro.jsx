@@ -22,6 +22,7 @@ export const Registro = () => {
         precio: productos.precio,
         cantidad: productos.cantidad,
         quantity: productos.quantity,
+        image: productos.image,
       })),
       total: totalPrecio(),
     };
